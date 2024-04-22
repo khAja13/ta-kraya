@@ -213,6 +213,7 @@ function go(mobile, idToPut) {
   else document.getElementById('clearAll').style.color = "#ff3465"
 }
 // go(kraya_mobiles, "products-list")
+console.log(kraya_mobiles)
 go(kraya_mobiles, "products-list-desk")
 
 // window.addEventListener("resize", () => {
